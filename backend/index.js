@@ -5,12 +5,15 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import { connectDB } from './config/db';
 
 import userRoute from './routes/user.route';
 
 dotenv.config();
 
 const app = express();
+
+connectDB()
 
 app.use(express.json());
 app.use(cors());

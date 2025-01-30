@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Welcome to Create-Blanky-Shivam-App</h1>
+      <h1 style={styles.heading}>Welcome to Create-Ryuga-App</h1>
       <a
         href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         target="_blank"
